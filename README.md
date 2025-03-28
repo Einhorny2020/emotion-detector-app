@@ -15,12 +15,31 @@ Ce projet permet de détecter automatiquement les **émotions d’un visage** à
 
 ### Sous macOS / Linux
 
+
 ```bash
 chmod +x install_env_emotion_mac.sh
 ./install_env_emotion_mac.sh
 source venv/bin/activate
 streamlit run app.py
 ```
+
+```bash si erreur streamlit
+### Etre sous Python3.10 minimum
+
+brew install python@3.10
+python3.10 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install streamlit
+pip install opencv-python-headless
+brew install libjpeg libtiff little-cms2 openjpeg webp
+pip install Pillow
+pip install tensorflow
+pip install keras
+pip install deepface
+
+```
+
 
 ### Sous Windows
 
