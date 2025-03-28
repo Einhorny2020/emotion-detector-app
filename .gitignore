@@ -1,0 +1,17 @@
+# Ignore venv
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.DS_Store
